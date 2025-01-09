@@ -6,7 +6,7 @@ tic
 sz  = 512;
 sz2 = 512;
 totpic = 58;  % modify 1: stack depth
-root_read = '.\Example_cancer\cancer\cancer'; % modify 2: path of reading
+root_read = '.\cancer'; % modify 2: path of inputting
 Duplim = 23; % modify 3: thickness-related distance parameter
 
 stack = zeros(sz, sz2, totpic, 3);
